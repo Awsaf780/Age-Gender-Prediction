@@ -4,6 +4,22 @@ Contact Information
    Name                         Student ID      Contact #       Email
 
 1. Awsaf Mahmood Lisan		1813117042	01625604871	awsaf.lisan@northsouth.edu
-2. Rubayet Kabir Tonmoy		1811180642	01625604871	kabir.tonmoy@northsouth.edu
-3. Fahim Istiak			1812400642	01625604871	fahim.istiak@northsouth.edu
-4. Moshiur Rahman Faisal	1811966642	01625604871	moshiur.faisal@northsouth.edu
+2. Rubayet Kabir Tonmoy		1811180642	01959955310	kabir.tonmoy@northsouth.edu
+3. Fahim Istiak			1812400642	01700791868	fahim.istiak@northsouth.edu
+4. Moshiur Rahman Faisal	1811966642	01942560986	moshiur.faisal@northsouth.edu
+
+
+
+Notes
+----------------------
+
+1. The notebooks are separate because of 2 reasons:
+	a) A library for audio splitting requires linux based machines.
+	b) YouTube blocks too many download requests at a single time.
+
+   Since the data processing takes too long, we saved the input data 
+   in a numpy file for faster and easier loading.
+
+2. dataset.csv file contains audio locations, and the total data size is 
+   over 15GB. Hence, we provided the numpy formatted data only. 
+   (In the numpy files, Audio data is processed as 1D array and saved)
