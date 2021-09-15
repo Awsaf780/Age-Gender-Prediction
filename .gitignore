@@ -153,4 +153,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+
+saved_model/single_pred
+
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
